@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useHistory } from "react-router-dom"
 import React from "react";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 const logout= () =>{
 
@@ -14,10 +15,10 @@ const logout= () =>{
         }
         
     }  ).then ((res)=>{
-      
+     
     })
     
-   
+    
 
 }
 
